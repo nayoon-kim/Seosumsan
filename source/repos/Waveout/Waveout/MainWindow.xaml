@@ -1,0 +1,17 @@
+﻿<Window x:Class="Waveout.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Waveout"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="textBoxPlayFilePath" Content="Label" HorizontalAlignment="Left" Margin="75,67,0,0" VerticalAlignment="Top" Width="555"/>
+        <Button x:Name="Open" Content="Open" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="685,67,0,0" Click="Open_Click"/>
+        <Button x:Name="Play" Content="Play" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="121,273,0,0" Click="Play_Click"/>
+        <Button x:Name="Pause" Content="Pause" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="373,273,0,0" Click="Pause_Click"/>
+        <Button x:Name="Stop" Content="Stop" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="598,273,0,0" Click="Stop_Click"/>
+
+    </Grid>
+</Window>
