@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/backbutton"
+                android:layout_marginTop="20dp"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:gravity="left"
+                android:src="@drawable/ic_24px_black"/>
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="title"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="@font/joseonilbomyeongjo"
+                android:textSize="30sp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"
+        android:layout_marginBottom="3dp"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabSelectedTextColor="@color/colorPrimaryDark"
+        app:tabTextColor="#000000"
+        ></com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/contents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/content1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="230dp" />
+
+            <LinearLayout
+                android:id="@+id/SliderDots"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/view"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/mountain_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="name"
+                android:textSize="16sp" />
+
+            <View style="@style/Divider" />
+
+            <TextView
+                android:id="@+id/mountain_loca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="위치    " />
+
+            <View style="@style/Divider" />
+
+            <TextView
+                android:id="@+id/mountain_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="높이    " />
+
+            <View style="@style/Divider" />
+
+            <TextView
+                android:id="@+id/mountain_subway"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="근처 지하철 위치    " />
+
+            <View style="@style/Divider" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mountain_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text=" " />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:id="@+id/path_scroll"
+                tools:context=".activity.FullBoardActivity">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp">
+                        <TextView
+                            android:id="@+id/path_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:background="@drawable/mountain_img" />
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:stretchColumns="*">
+
+                            <TableRow
+                                android:layout_height="0dp"
+                                android:layout_weight="4">
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_height="0dp"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:layout_height="match_parent"
+                                    android:layout_width="match_parent"
+                                    android:orientation="horizontal"
+                                    android:weightSum="40">
+                                    <TextView
+                                        android:layout_height="match_parent"
+                                        android:layout_width="0dp"
+                                        android:layout_weight="10"/>
+                                    <TextView
+                                        android:layout_height="match_parent"
+                                        android:layout_width="0dp"
+                                        android:layout_weight="4"
+                                        android:id="@+id/first_path"/>
+                                    <TextView
+                                        android:layout_height="match_parent"
+                                        android:layout_width="0dp"
+                                        android:layout_weight="4"/>
+                                    <TextView
+                                        android:layout_height="match_parent"
+                                        android:layout_width="0dp"
+                                        android:layout_weight="3"
+                                        android:id="@+id/second_path"/>
+                                    <TextView
+                                        android:layout_height="match_parent"
+                                        android:layout_width="0dp"
+                                        android:layout_weight="3"/>
+                                    <TextView
+                                        android:layout_height="match_parent"
+                                        android:layout_width="0dp"
+                                        android:layout_weight="3"
+                                        android:id="@+id/third_path"/>
+                                    <TextView
+                                        android:layout_height="match_parent"
+                                        android:layout_width="0dp"
+                                        android:layout_weight="13"/>
+                                </LinearLayout>
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_height="0dp"
+                                android:layout_weight="2">
+                            </TableRow>
+
+                        </TableLayout>
+
+                    </FrameLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/path_listitem"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:scrollbarFadeDuration="0"
+                        android:scrollbarSize="5dp"
+                        android:scrollbarThumbVertical="@android:color/darker_gray"
+                        android:scrollbars="vertical" />
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listView_sights_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scrollbarFadeDuration="0"
+                android:scrollbarSize="5dp"
+                android:scrollbarThumbVertical="@android:color/darker_gray"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listView_restaurant_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scrollbarFadeDuration="0"
+                android:scrollbarSize="5dp"
+                android:scrollbarThumbVertical="@android:color/darker_gray"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_margin="10dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right">
+                <ImageView
+                    android:id="@+id/review_popup_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_view"
+                    android:src="@drawable/plus3" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listView_review_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scrollbarFadeDuration="0"
+                android:scrollbarSize="5dp"
+                android:scrollbarThumbVertical="@android:color/darker_gray"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView_main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="?attr/colorPrimary"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        app:menu="@menu/bottombar_menu" />
+
+</LinearLayout>

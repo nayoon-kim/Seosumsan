@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+       >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_height="0dp"
+                android:layout_weight="2">
+                <TextView
+                    android:id="@+id/nameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="●      코스"
+                    android:gravity="center|left"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <TextView
+                        android:id="@+id/startText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundedbutton"
+                        android:layout_weight="1"
+                        android:text="Start"
+                        android:gravity="center"
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="0dp"/>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_height="0dp"
+                            android:layout_width="match_parent"
+                            android:layout_weight="4"
+                            android:background="@drawable/pathtag">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:id="@+id/tag_click"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"/>
+
+                            </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+
+<!--                        <Button-->
+<!--                            android:id="@+id/detail_btn"-->
+
+<!--                            android:text="Button"-->
+<!--                            android:textColor="#424242"-->
+<!--                            android:textSize="10sp"-->
+
+<!--                            android:background="@drawable/roundedbutton"-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:shadowColor="#A8A8A8"-->
+<!--                            android:shadowDx="0"-->
+<!--                            android:shadowDy="0"-->
+<!--                            android:shadowRadius="8"/>-->
+
+                    <TextView
+                        android:id="@+id/endText"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="End"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/roundedbutton"/>
+
+                </LinearLayout>
+            </TableRow>
+            <TableRow
+                android:layout_height="0dp"
+                android:layout_weight="1">
+            </TableRow>
+
+        </TableLayout>
+
+    </FrameLayout>
+</LinearLayout>
