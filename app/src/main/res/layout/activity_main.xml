@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id ="@+id/map"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/seoul_map">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="27"></TableRow>
+        <TableRow
+            android:orientation="horizontal" android:weightSum="100" >
+
+            <TextView
+                android:layout_height="113dp"
+                android:layout_weight="50" />
+
+            <TextView
+                android:layout_height="113dp"
+                android:layout_weight="30"
+                />
+
+            <TextView
+                android:layout_height="113dp"
+                android:layout_weight="20" />
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal" android:weightSum="100" >
+            <TextView
+                android:layout_height="60dp"
+                android:layout_weight="22" />
+
+            <TextView
+                android:layout_height="60dp"
+                android:layout_weight="29" />
+
+            <TextView
+                android:id ="@+id/north_1"
+                android:layout_height="60dp"
+                android:layout_weight="30"
+                android:text ="N"
+                android:textColor="@android:color/transparent"
+                android:onClick="onTextViewClick"/>
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal" android:weightSum="100" >
+            <TextView
+                android:layout_height="55dp"
+                android:layout_weight="33" />
+            <TextView
+                android:id ="@+id/middle_1"
+                android:layout_height="55dp"
+                android:layout_weight="17"
+                android:text ="M"
+                android:textColor="@android:color/transparent"
+                android:onClick="onTextViewClick"/>
+            <TextView
+                android:id ="@+id/north_2"
+                android:layout_height="55dp"
+                android:layout_weight="18"
+                android:text ="N"
+                android:textColor="@android:color/transparent"
+                android:onClick="onTextViewClick"/>
+            <TextView
+                android:id ="@+id/north_3"
+                android:layout_height="55dp"
+                android:layout_weight="18"
+                android:text ="N"
+                android:textColor="@android:color/transparent"
+                android:onClick="onTextViewClick"/>
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal" android:weightSum="100" >
+            <TextView
+                android:layout_height="55dp"
+                android:layout_weight="26" />
+            <TextView
+                android:id ="@+id/middle_2"
+                android:layout_height="55dp"
+                android:layout_weight="25"
+                android:text ="M"
+                android:textColor="@android:color/transparent"
+                android:onClick="onTextViewClick"/>
+            <TextView
+                android:id ="@+id/north_4"
+                android:layout_height="55dp"
+                android:layout_weight="17"
+                android:text ="N"
+                android:textColor="@android:color/transparent"
+                android:onClick="onTextViewClick"/>
+            <TextView
+                android:id ="@+id/east_1"
+                android:layout_height="55dp"
+                android:layout_weight="14"
+                android:text ="E"
+                android:textColor="@android:color/transparent"
+                android:onClick="onTextViewClick"/>
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal" android:weightSum="100" >
+            <TextView
+                android:id ="@+id/west_1"
+                android:layout_height="95dp"
+                android:layout_weight="35"
+                android:text ="W"
+                android:textColor="@android:color/transparent"
+                android:onClick="onTextViewClick"/>
+            <TextView
+                android:id ="@+id/middle_3"
+                android:layout_height="95dp"
+                android:layout_weight="24"
+                android:text ="M"
+                android:textColor="@android:color/transparent"
+                android:onClick="onTextViewClick"/>
+            <TextView
+                android:id ="@+id/east_2"
+                android:layout_height="95dp"
+                android:layout_weight="40"
+                android:text ="E"
+                android:textColor="@android:color/transparent"
+                android:onClick="onTextViewClick"/>
+
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal" android:weightSum="100" >
+            <TextView
+                android:id ="@+id/west_2"
+                android:layout_height="120dp"
+                android:layout_weight="36"
+                android:text ="W"
+                android:textColor="@android:color/transparent"
+                android:onClick="onTextViewClick"/>
+            <TextView
+                android:id ="@+id/south_1"
+                android:layout_height="120dp"
+                android:layout_weight="60"
+                android:text ="S"
+                android:textColor="@android:color/transparent"
+                android:onClick="onTextViewClick"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView_main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:itemBackground="?attr/colorPrimary"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        app:menu="@menu/bottombar_menu" />
+
+</FrameLayout>
