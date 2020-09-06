@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5F13C1B-0FC0-E5B2-3389-E6C2314680EC" containerWithKeyObject="4BB2D10D-B3B4-6193-FABC-B55F2A1E4FD2" localFKIndex="4A780629-ED21-FDA6-7758-BD0B1A53EA8D" name="DIR_FIE_CODE">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>C##SMARTVEST</sourceObjSchema>
+<sourceObjName>DIR_FIE_CODE</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:17 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<referredTableLongName>C##SMARTVEST.FIELDWORK</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>681D36A1-5921-827A-3EDA-B4386051FFE7</referredTableID>
+<keyObject>E00767BF-69D8-DE6B-8BA4-72F5E59FC7B1</keyObject>
+<referredKeyID>E00767BF-69D8-DE6B-8BA4-72F5E59FC7B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FIELD_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

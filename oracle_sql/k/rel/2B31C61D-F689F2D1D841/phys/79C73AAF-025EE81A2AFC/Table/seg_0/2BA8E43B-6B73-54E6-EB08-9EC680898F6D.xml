@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="WORKER" directorySegmentName="seg_0" id="2BA8E43B-6B73-54E6-EB08-9EC680898F6D">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<schemaObject>51527A38-69D3-7B8A-203C-F958BAC4B6B5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9959E1BD-FDEA-C9FB-8CF3-F05CADB34E45</segment>
+<tableSpace>66CD257B-1532-B165-ECAD-C087E3A77B15</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="WARNING_SIGNAL" id="07D06921-B379-AB43-6083-9EF171F79270">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CARBON_MONOXIDE" id="129067D7-6617-FD4E-30AF-550D2D2CE177">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LATITUDE" id="390C8A36-8F26-E887-0B69-6B65EA1ACC3A">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEMPERATURE" id="536C4761-0EE8-47BB-C18D-767888DAF12B">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="METHANE" id="55DBCA27-BB2F-4596-3AE9-3A6385D26BE1">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HUMIDITY" id="82D6BE24-C512-966E-57EA-D8EEC7C0766A">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEST_ID" id="8F3EF72C-B42C-DF00-AE50-E8E67210600D">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIELD_ID" id="9498E46F-7D5D-D93E-FA87-A85B3EE9808E">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISOBUTHANE" id="9F304882-2604-209A-1C80-1957ED6BFEC2">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECTOR_ID" id="B7C2E399-7433-A8DC-EA43-712AA2CFA427">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LONGITUDE" id="B827EE20-2140-3814-1CE0-A1339B1FE2AC">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROPANE" id="C9F84BAC-889D-595C-51E5-E34051E1C94A">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="WORK_DIR_CODE" id="99838E49-BF11-633C-3C5E-043E91FDD73D">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:17 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="WORKER_PK" id="1DB8D406-02DE-C7B5-B82A-2450A499855A">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<schemaObject>51527A38-69D3-7B8A-203C-F958BAC4B6B5</schemaObject>
+<segment>118C6354-6652-1AD2-6B3B-2688CD6774F1</segment>
+<tableSpace>66CD257B-1532-B165-ECAD-C087E3A77B15</tableSpace>
+<indexSegment>118C6354-6652-1AD2-6B3B-2688CD6774F1</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

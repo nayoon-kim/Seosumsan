@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A33C1310-17CA-DC45-9AA0-26BBD518D3FE" containerWithKeyObject="2BA8E43B-6B73-54E6-EB08-9EC680898F6D" localFKIndex="99838E49-BF11-633C-3C5E-043E91FDD73D" name="WORK_DIR_CODE">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>C##SMARTVEST</sourceObjSchema>
+<sourceObjName>WORK_DIR_CODE</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:17 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<referredTableLongName>C##SMARTVEST.DIRECTOR</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>4BB2D10D-B3B4-6193-FABC-B55F2A1E4FD2</referredTableID>
+<keyObject>E213A327-632A-F523-90EA-03FB8676DDBA</keyObject>
+<referredKeyID>E213A327-632A-F523-90EA-03FB8676DDBA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DIRECTOR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

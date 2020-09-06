@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BA8E43B-6B73-54E6-EB08-9EC680898F6D" schemaObject="51527A38-69D3-7B8A-203C-F958BAC4B6B5" name="WORKER">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>C##SMARTVEST</sourceObjSchema>
+<sourceObjName>WORKER</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VEST_ID" id="8F3EF72C-B42C-DF00-AE50-E8E67210600D">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>WORKER</sourceObjSchema>
+<sourceObjName>VEST_ID</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECTOR_ID" id="B7C2E399-7433-A8DC-EA43-712AA2CFA427">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>WORKER</sourceObjSchema>
+<sourceObjName>DIRECTOR_ID</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A33C1310-17CA-DC45-9AA0-26BBD518D3FE" referredColumn="93DFB46D-CC69-74FB-B26C-9C8BDBA3B70D"/>
+</associations>
+</Column>
+<Column name="FIELD_ID" id="9498E46F-7D5D-D93E-FA87-A85B3EE9808E">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>WORKER</sourceObjSchema>
+<sourceObjName>FIELD_ID</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WARNING_SIGNAL" id="07D06921-B379-AB43-6083-9EF171F79270">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>WORKER</sourceObjSchema>
+<sourceObjName>WARNING_SIGNAL</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUDE" id="390C8A36-8F26-E887-0B69-6B65EA1ACC3A">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>WORKER</sourceObjSchema>
+<sourceObjName>LATITUDE</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUDE" id="B827EE20-2140-3814-1CE0-A1339B1FE2AC">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>WORKER</sourceObjSchema>
+<sourceObjName>LONGITUDE</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METHANE" id="55DBCA27-BB2F-4596-3AE9-3A6385D26BE1">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>WORKER</sourceObjSchema>
+<sourceObjName>METHANE</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISOBUTHANE" id="9F304882-2604-209A-1C80-1957ED6BFEC2">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>WORKER</sourceObjSchema>
+<sourceObjName>ISOBUTHANE</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARBON_MONOXIDE" id="129067D7-6617-FD4E-30AF-550D2D2CE177">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>WORKER</sourceObjSchema>
+<sourceObjName>CARBON_MONOXIDE</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROPANE" id="C9F84BAC-889D-595C-51E5-E34051E1C94A">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>WORKER</sourceObjSchema>
+<sourceObjName>PROPANE</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPERATURE" id="536C4761-0EE8-47BB-C18D-767888DAF12B">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>WORKER</sourceObjSchema>
+<sourceObjName>TEMPERATURE</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HUMIDITY" id="82D6BE24-C512-966E-57EA-D8EEC7C0766A">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>WORKER</sourceObjSchema>
+<sourceObjName>HUMIDITY</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DB8D406-02DE-C7B5-B82A-2450A499855A" schemaObject="51527A38-69D3-7B8A-203C-F958BAC4B6B5" name="WORKER_PK">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>C##SMARTVEST</sourceObjSchema>
+<sourceObjName>SYS_C007714</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F3EF72C-B42C-DF00-AE50-E8E67210600D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99838E49-BF11-633C-3C5E-043E91FDD73D" name="WORK_DIR_CODE">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:17 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7C2E399-7433-A8DC-EA43-712AA2CFA427"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

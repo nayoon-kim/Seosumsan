@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B83CAC07-9BB8-23CF-DD65-4E35D7751191" schemaObject="E730253A-1EB4-4ADB-CD95-4E5950ABA69A" name="FIELDWORK">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>C##SMARTVEST</sourceObjSchema>
+<sourceObjName>FIELDWORK</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:39 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FIELD_ID" id="52977BF3-69D2-7705-3015-F27C164BBC02">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>FIELDWORK</sourceObjSchema>
+<sourceObjName>FIELD_ID</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:39 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HARBOR" id="C915BC61-C701-090C-8CA1-C7A9781864FC">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>FIELDWORK</sourceObjSchema>
+<sourceObjName>HARBOR</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:39 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCK" id="E665E0AE-5017-48F0-86FA-0C16F9AE0E31">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>FIELDWORK</sourceObjSchema>
+<sourceObjName>DOCK</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:39 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPANY" id="5F36EF7C-F914-0D32-CD4C-BA37C464EFD8">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>FIELDWORK</sourceObjSchema>
+<sourceObjName>COMPANY</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:39 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B420CB29-BAA3-12B7-D410-2CCDE6988D1C" schemaObject="E730253A-1EB4-4ADB-CD95-4E5950ABA69A" name="FIELDWORK_PK">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>C##SMARTVEST</sourceObjSchema>
+<sourceObjName>SYS_C007705</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:39 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52977BF3-69D2-7705-3015-F27C164BBC02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

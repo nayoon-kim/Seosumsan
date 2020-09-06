@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="FIELDWORK" directorySegmentName="seg_0" id="681D36A1-5921-827A-3EDA-B4386051FFE7">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<schemaObject>51527A38-69D3-7B8A-203C-F958BAC4B6B5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9959E1BD-FDEA-C9FB-8CF3-F05CADB34E45</segment>
+<tableSpace>66CD257B-1532-B165-ECAD-C087E3A77B15</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FIELD_ID" id="234E2D31-B687-E6F0-7100-7C93391B265B">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HARBOR" id="6657EE0C-032E-5A81-9A26-0844294C572B">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPANY" id="6FA5BF76-7D8D-3C32-C3A6-66B121757321">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOCK" id="CDF22736-A801-2D8E-007D-629AA6E4F7B3">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FIELDWORK_PK" id="E00767BF-69D8-DE6B-8BA4-72F5E59FC7B1">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<schemaObject>51527A38-69D3-7B8A-203C-F958BAC4B6B5</schemaObject>
+<segment>118C6354-6652-1AD2-6B3B-2688CD6774F1</segment>
+<tableSpace>66CD257B-1532-B165-ECAD-C087E3A77B15</tableSpace>
+<indexSegment>118C6354-6652-1AD2-6B3B-2688CD6774F1</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

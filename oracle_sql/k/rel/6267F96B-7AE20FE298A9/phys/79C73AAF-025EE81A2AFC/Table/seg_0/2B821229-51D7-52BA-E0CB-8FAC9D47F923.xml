@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DIRECTOR" directorySegmentName="seg_0" id="2B821229-51D7-52BA-E0CB-8FAC9D47F923">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<schemaObject>E730253A-1EB4-4ADB-CD95-4E5950ABA69A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FFEC5170-D0E7-5C25-98A5-77D6C648ED31</segment>
+<tableSpace>2ACFCE33-EA54-23CC-84C8-E1F0B2B29E25</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DIRECTOR_ID" id="221AD271-182A-FB02-AE00-515BC7E81D56">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASSWORD" id="802EE1ED-DCD4-3699-A0C7-492ED06B3765">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIELD_ID" id="CA8CE509-6F8A-BABC-5EC1-C3CBAC6DEB49">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOGINNAME" id="F9BBB2E9-EA61-34A4-EB96-7DC51BBDC417">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DIR_FIE_CODE" id="2DD607E5-D0FB-9B7D-AB04-A6B87DA21180">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:30 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DIRECTOR_PK" id="CD0D9450-9A16-F1A5-AE8B-12B591FA395E">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<schemaObject>E730253A-1EB4-4ADB-CD95-4E5950ABA69A</schemaObject>
+<segment>E183B93B-0027-B118-ADBC-7935ECE9B156</segment>
+<tableSpace>2ACFCE33-EA54-23CC-84C8-E1F0B2B29E25</tableSpace>
+<indexSegment>E183B93B-0027-B118-ADBC-7935ECE9B156</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

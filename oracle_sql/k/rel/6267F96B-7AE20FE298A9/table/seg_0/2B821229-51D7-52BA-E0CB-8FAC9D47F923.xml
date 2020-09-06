@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B821229-51D7-52BA-E0CB-8FAC9D47F923" schemaObject="E730253A-1EB4-4ADB-CD95-4E5950ABA69A" name="DIRECTOR">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>C##SMARTVEST</sourceObjSchema>
+<sourceObjName>DIRECTOR</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DIRECTOR_ID" id="221AD271-182A-FB02-AE00-515BC7E81D56">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>DIRECTOR</sourceObjSchema>
+<sourceObjName>DIRECTOR_ID</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGINNAME" id="F9BBB2E9-EA61-34A4-EB96-7DC51BBDC417">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>DIRECTOR</sourceObjSchema>
+<sourceObjName>LOGINNAME</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="802EE1ED-DCD4-3699-A0C7-492ED06B3765">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>DIRECTOR</sourceObjSchema>
+<sourceObjName>PASSWORD</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIELD_ID" id="CA8CE509-6F8A-BABC-5EC1-C3CBAC6DEB49">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>DIRECTOR</sourceObjSchema>
+<sourceObjName>FIELD_ID</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6D21DB5-09F9-4C30-2B7B-B22EB206D755" referredColumn="52977BF3-69D2-7705-3015-F27C164BBC02"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD0D9450-9A16-F1A5-AE8B-12B591FA395E" schemaObject="E730253A-1EB4-4ADB-CD95-4E5950ABA69A" name="DIRECTOR_PK">
+<sourceConnName>sys</sourceConnName>
+<sourceObjSchema>C##SMARTVEST</sourceObjSchema>
+<sourceObjName>SYS_C007709</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="221AD271-182A-FB02-AE00-515BC7E81D56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DD607E5-D0FB-9B7D-AB04-A6B87DA21180" name="DIR_FIE_CODE">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:30 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA8CE509-6F8A-BABC-5EC1-C3CBAC6DEB49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

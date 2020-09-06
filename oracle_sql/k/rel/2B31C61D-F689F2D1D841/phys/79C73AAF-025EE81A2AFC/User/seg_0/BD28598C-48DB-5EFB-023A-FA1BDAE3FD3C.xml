@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="C##SMARTVEST" directorySegmentName="seg_0" id="BD28598C-48DB-5EFB-023A-FA1BDAE3FD3C">
+<sourceConnName>sys</sourceConnName>
+<sourceObjName>C##SMARTVEST</sourceObjName>
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:27:16 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<schemaObject>51527A38-69D3-7B8A-203C-F958BAC4B6B5</schemaObject>
+</UserOraclev10g>

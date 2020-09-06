@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="k" id="0EC65E8D-119F-CDD1-1EAB-6AF54D387F4E" version="3.5">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:12:24 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0EC65E8D-119F-CDD1-1EAB-6AF54D387F4E</designId>
+</OSDM_Design>

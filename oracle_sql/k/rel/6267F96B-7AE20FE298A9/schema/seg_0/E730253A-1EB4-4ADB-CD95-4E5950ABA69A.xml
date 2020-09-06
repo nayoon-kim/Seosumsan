@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="C##SMARTVEST" directorySegmentName="seg_0" id="E730253A-1EB4-4ADB-CD95-4E5950ABA69A">
+<createdBy>bello</createdBy>
+<createdTime>2020-09-06 14:13:29 UTC</createdTime>
+<ownerDesignName>k</ownerDesignName>
+</SchemaObject>
